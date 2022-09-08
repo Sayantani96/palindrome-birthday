@@ -24,3 +24,9 @@ input{
     color:whitesmoke;
     font-size: 18px;
 }
+
+@media screen and (max-width:768px) {
+    input{
+        width:40%;
+    }
+}

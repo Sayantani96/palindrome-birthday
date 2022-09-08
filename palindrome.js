@@ -10,7 +10,8 @@ btnCheck.addEventListener('click',function displayStatement(){
         year:birthdayBreakArray[0]
     };
     var isPalindrome=checkPalindromeForAllDateFormats(dateObj);
-    if(isPalindrome){
+    if(birthdayToCheck.value==='') resultContent.innerText="Please Enter a value"
+    else if(isPalindrome){
         resultContent.innerText="Yay! Your birthday is palindrome!"
     }
     else{
