@@ -15,6 +15,9 @@ input{
     border-radius: 8px;
     font-size: 18px;
 }
+input:focus-visible{
+    outline: 3px solid blueviolet;
+}
 
 #result-btn{
     padding:15px;
@@ -27,6 +30,6 @@ input{
 
 @media screen and (max-width:768px) {
     input{
-        width:40%;
+        width:80%;
     }
 }
